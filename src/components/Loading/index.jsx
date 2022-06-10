@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import style from "./index.module.css";
 
-const Loading = ({ size = "large" }) => {
+const Loading = ({ size = "medium" }) => {
   return (
     <div className={style.container}>
       <div className={`${style.spinAnimation} ${style[size]}`} />
