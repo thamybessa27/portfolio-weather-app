@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.spinAnimation {
+  background-color: var(--white-color);
+  border-width: 5px 4px 0px 1px;
+  border-color: var(--dark-color);
+  border-style: solid solid none dotted;
+  animation: spin 3000ms infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.spinAnimation.small {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.spinAnimation.medium {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.spinAnimation.large {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
