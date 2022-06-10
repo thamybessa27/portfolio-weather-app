@@ -1,3 +1,21 @@
 .logo {
-  height: 50px;
+  height: 40px;
+}
+
+.header {
+  padding: 10px 40px;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+  gap: 60px;
 }
