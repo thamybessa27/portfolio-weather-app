@@ -1,0 +1,27 @@
+.rainWeather {
+  background: linear-gradient(to bottom, var(--dark-color), #57575c);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.rainDrops {
+  position: absolute;
+  top: -60px;
+  animation: drop 3.5s infinite ease-in;
+  width: 1px;
+  background: linear-gradient(to bottom, white 20%, grey);
+  height: 10px;
+}
+
+@keyframes drop {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: 90%;
+  }
+}
