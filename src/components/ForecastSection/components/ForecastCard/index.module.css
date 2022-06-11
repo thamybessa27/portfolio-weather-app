@@ -1,0 +1,38 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 10px;
+}
+
+.list > li + li {
+  margin-top: 10px;
+}
+
+.list > li:first-child {
+  font-weight: 700;
+}
+
+.btn {
+  color: var(--primary-color);
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 32px;
+}
+
+.btn:hover {
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.weather {
+  font-size: 3em;
+}
